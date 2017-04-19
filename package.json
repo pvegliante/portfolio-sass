@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prefix": "postcss ./css/index.css --use autoprefixer -o ./css/index.css",
+    "sass": "node-sass scss -o css",
+    "sass-watch": "node-sass scss -o css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvegliante/portfolio-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvegliante/portfolio-sass/issues"
+  },
+  "homepage": "https://github.com/pvegliante/portfolio-sass#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "node-sass": "^4.5.2",
+    "postcss-cli": "^3.1.1"
+  }
+}
